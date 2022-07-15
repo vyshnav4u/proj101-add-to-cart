@@ -1,0 +1,18 @@
+.prod-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.single-prod {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.single-prod img {
+  width: 300px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
